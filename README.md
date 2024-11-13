@@ -12,7 +12,7 @@ The dataset used for this project is **ViHOS** (Vietnamese Hate and Offensive Sp
 The PhoBERT model was fine-tuned using the modified ViHOS dataset. Training was conducted to adjust the model’s pre-trained weights for binary classification, determining whether a given text is offensive or non-offensive.
 
 Once trained, the model was evaluated on a test dataset, yielding strong results in both accuracy and F1 score.
-
+![Training Logs](images/train.jpg)
 ## Results
 - **Accuracy**: 90.14%
 - **F1 Score**: 89.49%
