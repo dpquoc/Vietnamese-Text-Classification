@@ -9,9 +9,8 @@ The dataset used for this project is **ViHOS** (Vietnamese Hate and Offensive Sp
 - **ViHOS Dataset**: Originally created for span detection, ViHOS pinpoints spans of offensive content in Vietnamese text. For this project, the dataset has been modified into a binary classification format where each text entry is labeled as either offensive or non-offensive. The dataset provides real-world examples for toxic content classification.
 
 ## Training and Evaluation
-The PhoBERT model was fine-tuned using the modified ViHOS dataset. Training was conducted to adjust the model’s pre-trained weights for binary classification, determining whether a given text is offensive or non-offensive.
+The PhoBERT model was fine-tuned using the modified ViHOS dataset. Training was conducted to adjust the model’s pre-trained weights for binary classification, determining whether a given text is offensive or non-offensive. The details of validation's scores are in notebook source.
 
-Once trained, the model was evaluated on a test dataset, yielding strong results in both accuracy and F1 score.
 ![Training Logs](images/train.jpg)
 ## Results
 - **Accuracy**: 90.14%
